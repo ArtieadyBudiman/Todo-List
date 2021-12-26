@@ -32,7 +32,7 @@ class Student{
         this.studentId = id;
     };
 
-    setHobbies(hobbies){
+    addHobbies(hobbies){
         this.hobbies.push(hobbies);
     };
 
@@ -49,10 +49,10 @@ student.setName("Artieady Budiman");
 student.setAge(25);
 student.setDateOfBirth("22 Agustus 1996");
 student.setGender("Male");
-student.setStudentId(220896)
-student.setHobbies("read");
-student.setHobbies("movies");
-student.setHobbies("music");
+student.setStudentId("ID220896");
+student.addHobbies("read");
+student.addHobbies("movies");
+student.addHobbies("music");
 console.log(student.getData());
 student.removeHobbies("music");
 console.log(student.getData());
